@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/dabinderudhan/ping-coming-soon-page)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://dabinderudhan.github.io/ping-coming-soon-page/)
 
 ### Built with
 
