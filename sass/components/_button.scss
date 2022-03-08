@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  width: 100%;
+  background-color: $color-primary;
+  border: 1px solid transparent;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  font-family: $ff-default;
+  font-weight: $fw-default;
+  color: #fff;
+  letter-spacing: 1px;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .btn:hover {
+    background-color: hsla(223, 87%, 63%, 0.8);
+  }
+}

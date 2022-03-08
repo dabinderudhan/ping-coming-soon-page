@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-align: center;
+
+  &.flex {
+    justify-content: space-between;
+  }
+}
+
+main,
+footer {
+  max-width: 375px;
+  padding: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  main,
+  footer {
+    max-width: 40rem;
+    padding: 0;
+  }
+}

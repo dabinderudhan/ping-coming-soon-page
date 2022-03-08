@@ -1,0 +1,51 @@
+.footer {
+  &-links {
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    &--link {
+      cursor: pointer;
+      width: 2.2rem;
+      height: 2.2rem;
+      border: 1px solid hsla(0, 0%, 59%, 0.2);
+      border-radius: 50px;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      position: relative;
+
+      &:hover {
+        background-color: $color-primary;
+        color: #fff;
+      }
+
+      &_icon {
+        color: $color-primary;
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &-text {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
